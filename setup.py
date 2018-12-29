@@ -26,9 +26,5 @@ setup(
     python_requires='>=3.6',
     license='MIT',
     zip_safe=False,
-    entry_points={
-        'console_scripts': [
-            'blacktop=blacktop:main',
-        ],
-    },
+    entry_points={'console_scripts': ['blacktop=blacktop:main']},
 )
